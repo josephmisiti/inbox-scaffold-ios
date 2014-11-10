@@ -3,6 +3,7 @@
 # platform :ios, "6.0"
 
 target "BigSur" do
+	pod 'PDKeychainBindingsController', '~> 0.0.1'
 	pod 'DateTools', '1.4.3'
 	pod 'MBProgressHUD'
 	pod 'UIActionSheet+Blocks'
